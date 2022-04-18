@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Veterinaria Cuki</title>
+    <meta name="Veterinaria Cuki" content="Roughly 155 characters">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/bootstrap-5.1.3-dist/css/bootstrap.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.ico">
+</head>
+
+
+<body>
+                <!--SECCION MENU PRINCIPAL-->
+
+    <div id="menu" style="background-color: rgb(236, 235, 248);">
+        <table id="tabla-menu">
+            <tr>
+                <td>
+                    <img id="logo" width="50" height="50" src="img/logo.png">
+                </td>
+                <td class="titulo">
+                    <p style="color: white; font-weight: bolder; width: 150px;">Veterinaria Cuki</p>
+                </td>
+                <td class="botones">
+                    <a href="index.html"><button type="button" class="btn">Inicio</button></a>
+                    <a href="nosotros.html"><button type="button" class="btn">Nosotros</button></a>
+                    <a href="servicios.html"><button type="button" class="btn">Servicios</button></a>
+                    <a href="contacto.html"><button type="button" class="btn">Contacto</button></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+        
+                <!--SECCION CUERPO DE PAGINA-->
+    <div id="texto2">
+        <table>
+            <tr>
+                <td style="width:25%"></td>
+                <td style="width:50%">
+                    <h1 id="titulo">Servicios</h1>
+                    <p class="parrafoC">Nuestro equipo está formado por profesionales unidos por el amor hacia los
+                    animales en general y los animales de compañía en particular. Este equipo de
+                    veterinarios altamente cualificados y especializados trabaja bajo la coordinación de
+                    la Doctora Cristeta Cuki, fundadora de la clínica veterinaria en 2010. El compromiso
+                    del equipo profesional se basa en dar calidad de vida a tu mascota.</p>
+                </td>
+                <td style="width:25%"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="img-servicios">
+        <table id="tabla-servicios">
+            <tr>
+                <td style="width:33%">
+                    <img src="img/servicios1.jpg" class="img-servicios1">
+                    <p>3 Consultorios de atención simultáneas para revisiones generales, diagnóstico y controles</p>
+                </td>
+                <td style="width:33%" text>
+                    <img src="img/servicios2.jpg" class="img-servicios1">
+                    <p>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de no trasladar a la mascota hacia nuestra clínica</p>
+                </td>
+                <td style="width:33%">
+                    <img src="img/servicios3.jpg" class="img-servicios1">
+                    <p>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.</p>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+
+                <!--SECCION CONTACTO-->
+        <div  id="contacto2">
+            <table id="tabla-contacto">
+                <tr>
+                    <td>
+                        <a href="https://www.facebook.com/">
+                            <img id="logo1" width="40" height="40" src="img/logo_fb.png">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.whatsapp.com/">
+                            <img id="logo2" width="40" height="40" src="img/logo_wapp.png">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="https://www.instagram.com/">
+                            <img id="logo3" width="40" height="40" src="img/logo_ig.png">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <p class="lead" style="text-align: center;">Veterinaria Cuki - Luis Agote 250 B° Mirador</p>
+            <p class="lead" style="text-align: center;">Hecho con <span class="mark">Bootstrap</span> por <a href="#">@clongoni</a></p>
+        </div>
+</body>
+</html>

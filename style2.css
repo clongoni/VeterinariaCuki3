@@ -1,0 +1,62 @@
+/*EDICION PROPIEDADES DE BODY*/
+
+/*EDICION PROPIEDADES DIV MENU*/
+
+.titulo{
+    color: white;
+    font-weight: bolder;
+}
+.titulo{
+    width: 150px;
+}
+div#menu{
+    background-color: rgb(116,65,20);
+}
+div#menu table#tabla-menu p{
+    color: white;
+}
+div#menu table#tabla-menu td{
+    margin-left: 10px;
+}
+/*EDICION PROPIEDADES DIV MENU SECCION BOTONES*/
+
+.btn{
+    background-color: rgb(116,65,20);
+    color: white;
+}
+.btn:hover{
+    color:black;
+    background-color: rgb(233,172,30);
+    border-color:rgb(245, 245, 245);
+}
+/*EDICION PROPIEDADES DIV TEXTO O CUERPO DE PAGINA*/
+
+div#texto h1{
+    text-align: center;
+    color: black;
+}
+.parrafoA{
+    text-align: center;
+    color: black;
+}
+div#texto div#botones{
+    margin-top: 10px;
+    text-align: center;
+}
+div#imagen1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*EDICION PROPIEDADES DIV CONTACTO*/
+
+div#contacto table#tabla-contacto{
+    margin: auto;
+    margin-top: 200px;
+}
+div#contacto p{
+    color: black;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
