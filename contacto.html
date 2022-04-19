@@ -56,7 +56,7 @@
         <div style="margin: 25px; padding: 50px; background-color: rgb(173, 176, 230);">
             <form action="">
                 <label for="formControlInput" class="form-label">Nombre</label>
-                <input type="name" class="form-control" id="formControlInput" placeholder="Juan Perez">
+                <input type="name" class="form-control" id="nombre" placeholder="Juan Perez">
 
                 <label for="formControlInput" class="form-label">Telefono</label>
                 <input type="phone" class="form-control" id="formControlInput" placeholder="11 3210 4321">
@@ -67,7 +67,7 @@
                 <label for="comment">Mensaje</label>
                 <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Dejanos tu mensaje"></textarea>
 
-                <input type="submit" class="btn btn-secondary" style="margin-top: 5px">
+                <input type="submit" class="btn btn-secondary" style="margin-top: 5px" onclick="enviarMensaje()">
             </form>
         </div>
     </div>
@@ -90,5 +90,15 @@
         <p class="lead" style="text-align: center;">Hecho con <span class="mark">Bootstrap</span> por <a href="#">@clongoni</a></p>
     </div>
     
+<script>
+    function enviarMensaje(){
+        let confirmacion = confirm("¿Estás seguro de querer enviar este mensaje?");
+        if(confirmacion){
+            let nombreUsuario = document.getElementById("nombre");
+            alert("Gracias por tu mensaje " + nombreUsuario.value);
+        }
+    }
+</script>
+
 </body>
 </html>
